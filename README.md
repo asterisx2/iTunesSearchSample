@@ -84,7 +84,7 @@ Stateful react component for viewing favorites.
 #### album [dot] js
 Used by **search** and **favorite** components to display each album as a card.
 
-### searchBar.js
+#### searchBar.js
 Used by **search** component to search for albums and **favorite** component to filter favorites.
 
 
