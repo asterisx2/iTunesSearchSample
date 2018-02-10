@@ -61,4 +61,31 @@ All your favorites can be found on the favorites page. To view them click on the
 ## Filter your favorites
 
 To filter your favorites on the favorite page, start typing in the **filter box** on the top. Filtering is case-insensitive. Results are filtered **as you type.**
+
+# Architecture
+
+## API
+Data is exposed through an API, the API is in  **~/public/js/main.js.**
+ 
+## UI
+The main UI componenets are under **~/src** folder.
+
+### React Components
+
+#### App [dot] js 
+Containes a broswer router and hosts **search** and **favorite** components.
+
+#### search [dot] js
+Stateful react component for searching.
+
+#### favorite [dot] js
+Stateful react component for viewing favorites.
+
+#### album [dot] js
+Used by **search** and **favorite** components to display each album as a card.
+
+### searchBar.js
+Used by **search** component to search for albums and **favorite** component to filter favorites.
+
+
 ```
