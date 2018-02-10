@@ -22,6 +22,7 @@ You can use this readme to find information on how to use basic functions, how t
 ## Data Considerations
 
  - Data is stored in memory. **Closing the browser will lead to loosing all data including any added favorites**. 
+ 
 # Dependencies
 
  - **React** 
@@ -30,20 +31,20 @@ You can use this readme to find information on how to use basic functions, how t
  -  **Node JS**
  -  **NPM**
  -  **Babel**
+ 
+# Getting Started
 
 ## Install Dependencies
 
 Navigate to the **app** folder and type **npm install** to install all dependencies.
 
-# Basic Functions
-
-The app stores all the data in your browser, which means all data is automatically deleted upon exiting browser.
-
-
-
 ## Start the application
 
 To start the application, navigate to the **app** folder and type the command **npm start** in the command line.
+
+# Basic Functions
+
+The app stores all the data in your browser, which means all data is automatically deleted upon exiting browser.
 
 ## Search for Albums
 
