@@ -48,7 +48,7 @@ class Album extends React.Component {
         <div className="card-img">
           <div className="tracks">{this.props.album.trackCount} <i className="fa fa-music music-icon"></i></div>
           <span className="price">${this.props.album.collectionPrice}</span>
-          <img srcset={this.getSrcSet(this.props.album.artworkUrl100)} alt={this.props.album.collectionName} />
+          <img srcSet={this.getSrcSet(this.props.album.artworkUrl100)} alt={this.props.album.collectionName} />
         </div>
         <div className="card-caption">
           <i className={this.state.classForFavoriteButton} ref={(elem) => this.elem = elem} onClick={() => this.handleFavoriteClick()}></i>
